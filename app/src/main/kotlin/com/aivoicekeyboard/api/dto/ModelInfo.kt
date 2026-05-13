@@ -21,7 +21,7 @@ data class PricingInfo(
 data class ChatRequest(
     val model: String,
     val messages: List<MessageDto>,
-    val temperature: Float = 0.7,
+    val temperature: Float = 0.7f,
     @Json(name = "max_tokens") val maxTokens: Int = 256
 )
 
