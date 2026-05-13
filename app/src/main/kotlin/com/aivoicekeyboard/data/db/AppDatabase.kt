@@ -1,6 +1,7 @@
 package com.aivoicekeyboard.data.db
 
 import androidx.room.*
+import androidx.sqlite.db.SupportSQLiteDatabase
 import com.aivoicekeyboard.data.model.AppTrigger
 import com.aivoicekeyboard.data.model.CustomMode
 
