@@ -12,7 +12,7 @@ class TextProcessor(
     suspend fun process(rawText: String, modeId: String? = null): Result<String> {
         val mode = resolveMode(modeId)
         return client.processText(
-            model = "meta-llama/llama-3-8b-instruct:free",
+            model = "openrouter/free",
             systemPrompt = mode.prompt,
             userText = rawText,
             temperature = mode.temperature,
