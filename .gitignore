@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/build
+
+# Sherpa-ONNX AAR is 54MB — too large for GitHub. Download separately.
+app/libs/sherpa-onnx.aar
+app/libs/sherpa-onnx-master/
